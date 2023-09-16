@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);   
+
+
+body{
+    background-color: #dddddd;
+}
+
+.seccion1{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 50px;
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.seccion2{
+    display:flex;
+    font-family: 'Lato';
+    text-align: center;
+    
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+   margin-left: 400px;
+   margin-top: 50px;
+
+    width: 500px;
+    height: 500px;
+
+    
+}
+
+.boton{
+    border-radius: 10px;
+    background-color: #ADD500;
+    width: 210px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    border: 10px;
+
+    
+}
+.anuncio__P{
+    border-radius: 10px;
+    background-color:red;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    border: 10px;
+}
+.lista::before{
+   
+    content: "\2713\0020";
+  
+}
+
+.lista{
+    list-style-type: none;
+}
